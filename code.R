@@ -25,6 +25,8 @@ points(Aphid_2020FCl2$Aphids_DD, (Aphid_2020FCl2$CumAphid), col = "brown", lwd =
 
 # Modeling only day length
 
+# Important: I had to tweak the daylength variable. The original one (dl) is circular. I'm using the cumulative difference between lengths in hours (dlD), so it does not go back after reaching the max daylength
+
 plot(Aphid_2022FCl$dlD, (Aphid_2022FCl$CumAphid), xlim = c(14, 17), xlab = "Cumulative change in day length", ylab = "Cumulative proportion")
 points(Aphid_2020FCl$dlD, (Aphid_2020FCl$CumAphid), col  = "blue")
 points(Aphid_2019FCl$dlD, (Aphid_2019FCl$CumAphid), col  = "red")
