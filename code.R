@@ -1,7 +1,7 @@
 Aphid_2022FCl <- read.csv("./Data/year2022.csv")
 Aphid_2020FCl <- read.csv("./Data/year2020.csv")
 Aphid_2019FCl <- read.csv("./Data/year2019.csv")
-Aphid_2020FCl2 <- read.csv("./Data/year2020Val.csv")
+Aphid_2020FCl2 <- read.csv("./Data/year2020Val.csv") # Validation
 
 
 require(MASS)
